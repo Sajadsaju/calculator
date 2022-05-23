@@ -1,0 +1,71 @@
+.main{
+	width: 100%;
+	height: 1000px;
+	/*border: solid red;
+*/}
+.conatiner{
+	width: 310px;
+	margin: 50px 0px 0px 40%;
+	/*border:1px solid black;*/
+	height: 500px;
+	background-color: silver;
+	border-radius: 5px;
+
+	box-shadow: 10px 5px 2px 5px grey;
+}
+.calc{
+	width: 280px;
+	
+	margin-top: 50px;
+	margin-left: 10px;
+	height: 50px;
+}
+.acq{
+     color: whitesmoke;
+	margin: 6px;
+	width: 60px;
+	background-color: red;
+	height: 45px;
+}
+.ac{
+     color: whitesmoke;
+	margin: 6px;
+	width: 60px;
+	background-color: black;
+	height: 45px;
+}
+.c{
+	color: whitesmoke;
+	margin: 6px;
+	width: 60px;
+	background-color: blue;
+	height: 45px;
+
+}
+.ca{
+	color: whitesmoke;
+	margin: 6px;
+	width: 60px;
+	background-color: blue;
+	height: 45px;
+
+
+}
+.caa{
+	color: whitesmoke;
+	margin: 6px;
+	width: 60px;
+	background-color: darkcyan;
+	height: 45px;
+
+
+}
+.cao{
+	color: black;
+	margin: 6px;
+	width: 60px;
+	background-color: lime;
+	height: 225px;
+
+
+}

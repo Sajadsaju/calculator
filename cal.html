@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+   <link rel="stylesheet" type="text/css" href="cal.css">
+</head>
+<body>
+	<div class="main">
+		
+		<div class="conatiner">
+			
+
+			 
+				<input class="calc" type="text" id="screen" name="answer"><br><br>
+				
+			
+			<input type="button"  value="AC" class="acq" onclick="ac()">
+				
+			<input type="button" value="C" class="ac" onclick="clr()">
+				<input type="button" value="B" class="ac" onclick="vara()">
+				<input  type="button" value="%" class="c" onclick="display('%')">
+
+			<table>
+				<tr>
+				<td><input  type="button" value="+" class="ca" onclick="display('+')"></td>
+				<td><input  type="button" value="-" class="ca" onclick="display('-')"></td>
+				<td><input  type="button" value="*" class="ca" onclick="display('*')"></td>
+				<td><input  type="button" value="/" class="ca" onclick="display('/')"></td>
+			</tr>
+			<tr>
+				<td><input  type="button" value="1" class="caa" onclick="display('1')"></td>
+				<td><input  type="button" value="2" class="caa" onclick="display('2')"></td>
+				<td><input  type="button" value="3" class="caa" onclick="display('3')"></td>
+				<td rowspan="5"><input type="button" class="cao" value="="  onclick="calculate('=')"></td>
+			</tr>
+			<tr>
+				<td><input  type="button" value="4" class="caa" onclick="display('4')"></td>
+				<td><input  type="button" value="5" class="caa" onclick="display('5')"></td>
+				<td><input  type="button" value="6" class="caa" onclick="display('6')"></td>
+			</tr>
+			<tr>
+				<td><input  type="button" value="7" class="caa" onclick="display('7')"></td>
+				<td><input  type="button" value="8" class="caa" onclick="display('8')"></td>
+				<td><input  type="button" value="9" class="caa" onclick="display('9')"></td>
+			</tr>
+			<tr>
+				<td><input  type="button" value="#" class="caa" onclick="display('#')"></td>
+				<td><input  type="button" value="0" class="caa" onclick="display('0')"></td>
+				<td><input  type="button" value="." class="caa" onclick="display('.')"></td>
+			</tr>
+			</table>
+
+			
+		</div>
+		
+		
+	 </div>
+<script type="text/javascript" src="cal.js"></script>
+</body>
+</html>
